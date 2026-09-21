@@ -1,0 +1,19 @@
+$kind: http-request
+name: http://localhost:5000/api/food/available
+description: ""
+url: http://localhost:5000/api/food-request/request
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"receiver\": \"6aad4bbd6b3c8ae4df71ac9b\",\r
+
+    \  \"food\": \"6aaec428906be1f3b4d5d85f\",\r
+
+    \  \"quantity\": 1,\r
+
+    \  \"message\": \"I would like to request this food.\"\r
+
+    }"
+order: 160054904500646
